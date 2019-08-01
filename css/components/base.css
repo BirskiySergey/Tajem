@@ -17,9 +17,9 @@ html {
 
 .container {
   box-sizing: content-box;
-  width: 940px;
+  max-width: 940px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 30px;
 }
 
 p, ul, ol, figure {
