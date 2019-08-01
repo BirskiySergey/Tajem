@@ -110,7 +110,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 775px;
+  max-width: 775px;
   margin: 0 auto;
   padding: 150px 0;
 }
@@ -130,11 +130,6 @@
 }
 
 /* ------------------------------------------------------------section-story------------------------------------------------------ */
-
-.section-story {
-  margin: 0 -50px;
-}
-
 
 .section-icon-wrapper {
   padding: 200px 0;
@@ -156,6 +151,13 @@
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  .section-story .section-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 
 /* ------------------------------------------------------------section-expertise------------------------------------------------------ */
@@ -252,7 +254,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 770px;
+  max-width: 770px;
   margin: 0 auto;
 }
 

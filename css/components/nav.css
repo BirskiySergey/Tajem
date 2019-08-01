@@ -11,3 +11,8 @@
 .nav .is-active {
 	color: #00e0d0;
 }
+@media (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+}
